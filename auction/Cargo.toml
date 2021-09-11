@@ -19,7 +19,7 @@ orml-traits = { path = "../traits", version = "0.4.1-dev", default-features = fa
 
 [dev-dependencies]
 sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.9" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.9" }
+sp-io = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git'}
 
 [features]
 default = ["std"]
